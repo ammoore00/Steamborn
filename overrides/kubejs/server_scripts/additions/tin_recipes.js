@@ -22,6 +22,11 @@ onEvent('block.loot_tables', (event) => {
 })
 
 onEvent('recipes', (event) => {
+    // ------ Processing Recipes ------ //
+    event.smelting('kubeJS:tin_nugget', 'kubeJS:raw_tin');
+    event.blasting('kubeJS:tin_nugget', 'kubeJS:raw_tin');
+
+    // ------ Compacting Recipes ------ //
     event.shaped('kubejs:tin_ingot', [
         'NNN',
         'NNN',
