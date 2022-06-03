@@ -1,0 +1,89 @@
+// ------ Tiers ------//
+The pack will be divided into several main tiers of progression.
+
+-- Tier 1 - Bronze Age --
+The goals of this tier are to get established in the world.
+The end requirements of this tier are to have a smeltery set up to be able to produce iron.
+
+-- Tier 2 - Iron Age --
+The goals of this tier are to get more advanced alloy production set up to produce steel.
+The end requirements of this tier are to enter the nether.
+
+-- Tier 3 - Nether Age --
+The goals of this tier are to enter the nether and set up further production to supply villagers.
+The end requirements of this tier are to enter the end.
+
+-- Tier 4 - End Age --
+The goals of this tier is to make use of all the game has to offer.
+
+//------ Villagers ------//
+Villagers will be central to the tech progression of the pack
+Most profession blocks will be locked behind some tech progression, and those professions will further unlock more things.
+
+-- Full Profession and Block List --
+Armorer - Blast Furnace
+Butcher - Smoker
+Cartographer - Cartography Table
+Cleric - Brewing Stand
+Farmer - Composter
+Fisherman - Barrel
+Fletcher - Fletching Table
+Leatherworker - Cauldron
+Librarian - Lectern
+Mason - Stonecutter
+Shepard - Loom
+Toolsmith - Smithing Table
+Weaponsmith - Grindstone
+
+Oceanographer - Oceanography Table
+Netherologist - Decayed Workbench
+Forester - Forestry Table
+Enderologist - Purpur Altar
+Engineer - Blueprint Table
+Florist - Gardening Table
+Hunter - Hunting Post
+Miner - Mining Bench
+------------------------------------
+
+Villagers will be larger broken up into the following tiers:
+-- Tier 1 --
+Entry level villagers which are available from the start
+- Farmer
+- Fisherman
+- Florist
+- Hunter
+- Shepard
+- Butcher
+
+-- Tier 2 --
+More intermediate villagers which require some progression to access
+- Toolsmith
+- Armorer
+- Weaponsmith
+- Mason
+- Miner
+- Fletcher
+- Oceanographer
+- Leatherworker
+
+-- Tier 3 --
+Advanced villagers which require significant progress to access
+- Cleric
+- Engineer
+- Netherologist
+- Librarian
+
+-- Tier 4 --
+Very advanced villagers which require end game progress to access
+- Enderologist
+
+//------ Metals and Tools ------//
+Iron and Gold require Create progress to smelt, and return reduced amounts.
+Diamond ore will drop raw diamonds, which must be processed to be used for making tools.
+- Raw diamond -> Diamond -> Diamond ingot
+- Diamond ingots are used to upgrade iron tools and require steel in their creation
+
+Wood and stone tools will not be accessible. Instead, the player will have to start with flint tools.
+Flint tools can be used to get bronze tools. Copper then allows access to iron ore.
+
+Iron tools will have their durability buffed over current values to make up for their difficulty in acquisition.
