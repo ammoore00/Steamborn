@@ -20,3 +20,25 @@ onEvent('block.loot_tables', (event) => {
     event.addSimpleBlock('kubejs:tin_ore', 'kubejs:raw_tin');
     event.addSimpleBlock('kubejs:white_granite_tin_ore', 'kubejs:raw_tin');
 })
+
+onEvent('recipes', (event) => {
+    event.shaped('kubejs:tin_ingot', [
+        'NNN',
+        'NNN',
+        'NNN'
+    ], {
+        N: 'kubejs:tin_nugget'
+    });
+
+    event.shapeless('9x kubejs:tin_nugget', 'kubejs:tin_ingot');
+
+    event.shaped('kubejs:raw_tin_block', [
+        'RRR',
+        'RRR',
+        'RRR'
+    ], {
+        R: 'kubejs:raw_tin'
+    });
+
+    event.shapeless('9x kubejs:raw_tin', 'kubejs:raw_tin_block');
+})

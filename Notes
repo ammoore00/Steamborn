@@ -102,11 +102,18 @@ Netherite - 6
 
 - Modded -
 Flint - 1
-Copper - 2
+Copper/Gold - 2
 Bronze - 3
 Iron - 4
 Diamond - 5
 Netherite - 6
+
+// ------ Equipment ------ //
+-- Tiers --
+Copper?
+Bronze?
+Brass?
+Steel?
 
 // ------ Mod Overlap ------ //
 Mods overlapping with similar features
@@ -116,9 +123,13 @@ Rhyolite
 Slate
 Limestone
 Several cobbled variants
+Several polished variants
 
 -- Trees --
 Cherry
 
 -- Tools --
 Saws
+
+-- Other --
+Rose Quartz - change BoP version to ruby?
