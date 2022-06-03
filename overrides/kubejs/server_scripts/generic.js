@@ -3,7 +3,7 @@ settings.logRemovedRecipes = true;
 settings.logSkippedRecipes = false;
 settings.logErroringRecipes = true;
 
-onEvent("block.tags", (event) => {
+onEvent('block.tags', (event) => {
     // Stop endermen griefing
     event.removeAll("minecraft:enderman_holdable");
   

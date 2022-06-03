@@ -87,3 +87,38 @@ Wood and stone tools will not be accessible. Instead, the player will have to st
 Flint tools can be used to get bronze tools. Copper then allows access to iron ore.
 
 Iron tools will have their durability buffed over current values to make up for their difficulty in acquisition.
+
+Bronze should be moved far earlier in the pack.
+Tin ore should be added.
+
+-- Harvest levels --
+- Vanilla -
+Wood - 1
+Gold - 2
+Stone - 3
+Iron - 4
+Diamond - 5
+Netherite - 6
+
+- Modded -
+Flint - 1
+Copper - 2
+Bronze - 3
+Iron - 4
+Diamond - 5
+Netherite - 6
+
+// ------ Mod Overlap ------ //
+Mods overlapping with similar features
+
+-- Stone Types --
+Rhyolite
+Slate
+Limestone
+Several cobbled variants
+
+-- Trees --
+Cherry
+
+-- Tools --
+Saws
