@@ -1,7 +1,7 @@
 // Adds tin
 // Ore, Raw, Raw Block, Crushed, Nugget, Ingot, Sheet, Block
 
-onEvent('block.registry', function (event) {
+onEvent('block.registry', (event) => {
     event.create('andesite_tin_ore').material('stone').hardness('3').tagBlock('minecraft:mineable/pickaxe');
     event.create('beige_limestone_tin_ore').material('stone').hardness('3').tagBlock('minecraft:mineable/pickaxe');
     event.create('conglomerate_tin_ore').material('stone').hardness('3').tagBlock('minecraft:mineable/pickaxe');
@@ -24,7 +24,7 @@ onEvent('block.registry', function (event) {
     event.create('raw_tin_block').material('stone').hardness('5').displayName('Block of Raw Tin').tagBlock('minecraft:mineable/pickaxe');
 })
 
-onEvent('item.registry', function (event) {
+onEvent('item.registry', (event) => {
     event.create('raw_tin');
     event.create('crushed_tin_ore');
     event.create('tin_ingot');

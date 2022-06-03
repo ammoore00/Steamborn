@@ -1,6 +1,6 @@
 // Adds recipes and block drops to tin
 
-onEvent('block.loot_tables', event => {
+onEvent('block.loot_tables', (event) => {
     event.addSimpleBlock('kubejs:andesite_tin_ore', 'kubejs:raw_tin');
     event.addSimpleBlock('kubejs:beige_limestone_tin_ore', 'kubejs:raw_tin');
     event.addSimpleBlock('kubejs:conglomerate_tin_ore', 'kubejs:raw_tin');
